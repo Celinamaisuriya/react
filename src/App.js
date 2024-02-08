@@ -1,20 +1,18 @@
 import React, {Component} from 'react';
 import './App.css';
-
 // import Greet from './components/Greet';
+
 // import { Greet } from './components/Greet' //named export
-
 // import Welcome from './components/Welcome';
-
 // import GreetProp from './components/GreetProp';
-
 // import StateMessage from './components/StateMessage';
-
 // import Counter from './components/Counter';
-
 // import FunctionClick from './components/FunctionClick'
-
-import ClassClick from './components/ClassClick'
+// import ClassClick from './components/ClassClick'
+// import EventBind from './components/EventBind';
+// import PrentComponent from './components/PrentComponent'
+import UserGreeting from './components/UserGreeting'
+   
 
 class App extends Component{
   render(){
@@ -31,11 +29,10 @@ class App extends Component{
 
         <GreetProp name="Diana" heroname="Wonder Woman" />*/} 
         
-        {/* 
-        <Welcome name="Bruce" heroname="Batman" />
+        {/* <Welcome name="Bruce" heroname="Batman" />
         <Welcome name="clark" heroname="Superman" />
         <Welcome name="Diana" heroname="Wonder Woman" /> 
-        */}
+         */}
 
          {/* <StateMessage /> */} 
 
@@ -43,7 +40,13 @@ class App extends Component{
 
          {/* <FunctionClick /> */}
 
-         <ClassClick />
+         {/* <ClassClick /> */}
+
+         {/* <EventBind /> */}
+
+         {/* <PrentComponent /> */}
+
+         <UserGreeting />
       </div>
     );
   }
