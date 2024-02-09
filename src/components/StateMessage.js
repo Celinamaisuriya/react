@@ -3,8 +3,8 @@ import React ,{ Component } from 'react'
 class Message extends Component {
     constructor(){
         super()
-        this.state ={
-            message : 'Welcome Visitor'
+        this.state = {
+            message : 'Welcome Visitor' 
         }
     }
 
@@ -18,7 +18,7 @@ class Message extends Component {
         return (
            <div>
                  <h1> {this.state.message} </h1>
-                 <button onClick={() => this.changeMessage()}> Subscribe </button>
+                 <button onClick = {() => this.changeMessage()}> Subscribe </button>
            </div>
         )
     }
