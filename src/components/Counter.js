@@ -37,8 +37,8 @@ class Counter extends Component {
     return (
       <div>
         <div> Count - {this.state.count} </div>
-        {/* <button onClick={() => this.increment()}> Increment </button> */}
-        <button onClick={() => this.incrementFive()}> Increment </button>
+        {/* <button onClick = {() => this.increment()}> Increment </button> */}
+        <button onClick = {() => this.incrementFive()}> Increment </button>
       </div>
     )
   }
