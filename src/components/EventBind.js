@@ -31,11 +31,13 @@ class EventBind extends Component {
     return (
       <div>
         <div> {this.state.message} </div>
+
         {/* Way 1 :
             <button onClick={this.clickHandler.bind(this)}> Click </button>  */}
        
         {/* Way 2 :
             <button onClick={() => this.clickHandler()}> Click </button> */}
+
         {/* Way 3 : Best Approch */}
         <button onClick={this.clickHandler}> Click </button> 
 
