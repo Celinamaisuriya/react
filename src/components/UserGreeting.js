@@ -20,6 +20,7 @@ export class UserGreeting extends Component {
     //         Welcome Celina
     //     </div>
     // }
+      
     // else{
     //     message = <div> 
     //         Welcome Guest 
@@ -36,7 +37,9 @@ export class UserGreeting extends Component {
     //             Welcome Celina
     //         </div>
     //     )
-    // } else{ 
+    // } 
+      
+      else{ 
     //     return (
     //         <div>
     //              Welcome Guest
