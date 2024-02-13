@@ -11,8 +11,8 @@ import './App.css';
 // import ClassClick from './components/ClassClick'
 // import EventBind from './components/EventBind';
 // import PrentComponent from './components/PrentComponent'
-import UserGreeting from './components/UserGreeting'
-   
+// import UserGreeting from './components/UserGreeting'
+import NameList from './components/NameList';
 
 class App extends Component{
   render(){
@@ -34,7 +34,7 @@ class App extends Component{
         <Welcome name="Diana" heroname="Wonder Woman" /> 
          */}
 
-         {/* <StateMessage /> */} 
+         {/* <StateMessage />  */}
 
          {/* <Counter/> */}
 
@@ -46,7 +46,9 @@ class App extends Component{
 
          {/* <PrentComponent /> */}
 
-         <UserGreeting />
+         {/* <UserGreeting /> */}
+
+        <NameList />
       </div>
     );
   }
